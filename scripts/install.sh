@@ -135,6 +135,7 @@ install_patcher() {
     mkdir -p "$BIN_DIR"
     
     cp "$PROJECT_DIR/src/patcher.py" "$INSTALL_DIR/"
+    mkdir -p "$PROJECT_DIR/configs"
     cp -r "$PROJECT_DIR/configs" "$INSTALL_DIR/"
     
     chmod +x "$INSTALL_DIR/patcher.py"

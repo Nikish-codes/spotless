@@ -36,6 +36,7 @@ Spotify Status:
 spotless/
 ├── src/
 │   └── patcher.py        # Main CLI patcher (installed as `spotless`)
+├── configs/              # Configuration templates
 ├── scripts/
 │   ├── install.sh        # Installs CLI and applies patches
 │   └── uninstall.sh      # Restores and removes installed files
